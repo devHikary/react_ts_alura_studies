@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
+import Botao from "./components/Botao";
+import Formulario from './components/Formulario';
+import Lista from './Lista/Index';
 
 function App() {
   return (
     <div className="App">
-      Hello Word.
+      <Botao />
+      <Formulario />
+      <Lista />
     </div>
   );
 }
